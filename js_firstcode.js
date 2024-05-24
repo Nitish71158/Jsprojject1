@@ -31,9 +31,9 @@ function mintNFT (anime, favchar, power, unique) {
 function listNFTs () {
     for(let i=0;i<nft.length;i++)
         {
-                console.log("\nSr No : " +i);
+                console.log("\nSr No : " +(i+1));
                 console.log("Name of Anime is :\t\t\t\t     "+nft[i].name);
-                console.log("Favourite character namme is :\t \t "+nft[i].Favourite_Character);
+                console.log("Favourite character name is :\t \t "+nft[i].Favourite_Character);
                 console.log("Special Power of that character is : "+nft[i].Power);
                 console.log("Uniqueness About the character is :  "+nft[i].Unique);
         }
